@@ -1,6 +1,0 @@
-D:\Hackathon\AutomationTestCoverageTool\.vs\AutomationTestCoverageTool\lut\0\b\Customer.Web.Api\bin\Customer.Web.Api.dll.config
-D:\Hackathon\AutomationTestCoverageTool\.vs\AutomationTestCoverageTool\lut\0\b\Customer.Web.Api\bin\Customer.Web.Api.dll
-D:\Hackathon\AutomationTestCoverageTool\.vs\AutomationTestCoverageTool\lut\0\b\Customer.Web.Api\bin\Customer.Web.Api.pdb
-D:\Hackathon\AutomationTestCoverageTool\.vs\AutomationTestCoverageTool\lut\0\i\Customer.Web.Api\Debug\Customer.Web.Api.csproj.CoreCompileInputs.cache
-D:\Hackathon\AutomationTestCoverageTool\.vs\AutomationTestCoverageTool\lut\0\i\Customer.Web.Api\Debug\Customer.Web.Api.dll
-D:\Hackathon\AutomationTestCoverageTool\.vs\AutomationTestCoverageTool\lut\0\i\Customer.Web.Api\Debug\Customer.Web.Api.pdb

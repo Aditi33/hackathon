@@ -1,7 +1,0 @@
-D:\Hackathon\AutomationTestCoverageTool\.vs\AutomationTestCoverageTool\lut\0\b\Customer.Web.Api.UnitTests\bin\Debug\Customer.Web.Api.UnitTests.dll.config
-D:\Hackathon\AutomationTestCoverageTool\.vs\AutomationTestCoverageTool\lut\0\b\Customer.Web.Api.UnitTests\bin\Debug\Customer.Web.Api.UnitTests.dll
-D:\Hackathon\AutomationTestCoverageTool\.vs\AutomationTestCoverageTool\lut\0\b\Customer.Web.Api.UnitTests\bin\Debug\Customer.Web.Api.UnitTests.pdb
-D:\Hackathon\AutomationTestCoverageTool\.vs\AutomationTestCoverageTool\lut\0\i\Customer.Web.Api.UnitTests\Debug\Customer.Web.Api.UnitTests.csprojResolveAssemblyReference.cache
-D:\Hackathon\AutomationTestCoverageTool\.vs\AutomationTestCoverageTool\lut\0\i\Customer.Web.Api.UnitTests\Debug\Customer.Web.Api.UnitTests.csproj.CoreCompileInputs.cache
-D:\Hackathon\AutomationTestCoverageTool\.vs\AutomationTestCoverageTool\lut\0\i\Customer.Web.Api.UnitTests\Debug\Customer.Web.Api.UnitTests.dll
-D:\Hackathon\AutomationTestCoverageTool\.vs\AutomationTestCoverageTool\lut\0\i\Customer.Web.Api.UnitTests\Debug\Customer.Web.Api.UnitTests.pdb

@@ -1,0 +1,157 @@
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Customer.Web.Api.AcceptanceTests.dll.config
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Customer.Web.Api.AcceptanceTests.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Customer.Web.Api.AcceptanceTests.pdb
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.Data.Edm.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.Data.OData.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.Data.Services.Client.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Newtonsoft.Json.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\nunit.framework.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\RestSharp.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\System.Spatial.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\TechTalk.SpecFlow.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.Data.Edm.xml
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.Data.OData.xml
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.Data.Services.Client.xml
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Newtonsoft.Json.xml
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\nunit.framework.xml
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\RestSharp.xml
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\System.Spatial.xml
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\de\Microsoft.Data.OData.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\es\Microsoft.Data.OData.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\it\Microsoft.Data.OData.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\de\System.Spatial.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\es\System.Spatial.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\fr\System.Spatial.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\it\System.Spatial.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ja\System.Spatial.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ko\System.Spatial.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ru\System.Spatial.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\zh-Hans\System.Spatial.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\zh-Hant\System.Spatial.resources.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\obj\Debug\Customer.Web.Api.AcceptanceTests.Properties.Resources.resources
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\obj\Debug\Customer.Web.Api.AcceptanceTests.csproj.GenerateResource.Cache
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\obj\Debug\Customer.Web.Api.AcceptanceTests.csproj.CoreCompileInputs.cache
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\obj\Debug\Customer.Web.Api.AcceptanceTests.dll
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\obj\Debug\Customer.Web.Api.AcceptanceTests.pdb
+D:\Megha\ASOS Work\Setu\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\obj\Debug\Customer.Web.Api.AcceptanceTests.csprojResolveAssemblyReference.cache
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Customer.Web.Api.AcceptanceTests.dll.config
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Customer.Web.Api.AcceptanceTests.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Customer.Web.Api.AcceptanceTests.pdb
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Customer.Web.Api.UnitTests.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.Data.Edm.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.Data.OData.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.Data.Services.Client.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Newtonsoft.Json.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\nunit.framework.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\RestSharp.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\System.Spatial.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\TechTalk.SpecFlow.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Moq.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Customer.Web.Api.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Castle.Core.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\System.Web.Http.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.WindowsAzure.ServiceRuntime.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\WebGrease.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\System.Web.Http.WebHost.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\WindowsAzureTelemetryEvents.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Antlr3.Runtime.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\WindowsAzureEventSource.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Customer.Web.Api.UnitTests.pdb
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Customer.Web.Api.UnitTests.dll.config
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.Data.Edm.xml
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.Data.OData.xml
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.Data.Services.Client.xml
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Newtonsoft.Json.xml
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\nunit.framework.xml
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\RestSharp.xml
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\System.Spatial.xml
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Moq.pdb
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Moq.xml
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Customer.Web.Api.pdb
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Customer.Web.Api.dll.config
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Castle.Core.xml
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\System.Web.Http.xml
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\System.Web.Http.WebHost.xml
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\Antlr3.Runtime.pdb
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\de\Microsoft.Data.OData.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\es\Microsoft.Data.OData.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\it\Microsoft.Data.OData.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\de\System.Spatial.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\es\System.Spatial.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\fr\System.Spatial.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\it\System.Spatial.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ja\System.Spatial.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ko\System.Spatial.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\ru\System.Spatial.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\zh-Hans\System.Spatial.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug\zh-Hant\System.Spatial.resources.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\obj\Debug\Customer.Web.Api.AcceptanceTests.csprojResolveAssemblyReference.cache
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\obj\Debug\Customer.Web.Api.AcceptanceTests.Properties.Resources.resources
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\obj\Debug\Customer.Web.Api.AcceptanceTests.csproj.GenerateResource.Cache
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\obj\Debug\Customer.Web.Api.AcceptanceTests.csproj.CoreCompileInputs.cache
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\obj\Debug\Customer.Web.Api.AcceptanceTests.dll
+D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\obj\Debug\Customer.Web.Api.AcceptanceTests.pdb
