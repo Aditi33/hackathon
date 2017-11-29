@@ -1,0 +1,1 @@
+dotcover analyse coverage.xml

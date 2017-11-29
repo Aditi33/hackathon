@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AnalyzeParams>
+  <TargetExecutable>C:\Program Files (x86)\NUnit 2.6\bin\nunit-console.exe</TargetExecutable>
+  <TargetArguments>Customer.Web.Api.AcceptanceTests.dll Customer.Web.Api.UnitTests.dll</TargetArguments>
+  <TargetWorkingDir>D:\Hackathon\hackathon\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\bin\Debug</TargetWorkingDir>
+  <TempDir><!-- Directory for auxiliary files. Set to the system temp by default. --></TempDir>
+  <Output>AutomationCoverageReport.html</Output>
+  <ReportType>HTML</ReportType>
+  <InheritConsole><!-- [True|False] Lets the application being analyzed to inherit dotCover console. True by default. --></InheritConsole>
+  <AnalyzeTargetArguments><!-- [True|False] Specifies whether dotCover should analyze target arguments string and convert relative paths to absolute there. True by default. --></AnalyzeTargetArguments>
+ 
+  <Scope>
+    <ScopeEntry>D:\Hackathon\hackathon\AutomationTestCoverageTool\Customer.Web.Api\bin\Customer.Web.Api.dll</ScopeEntry>    
+  </Scope>
+  
+  <!-- Coverage filters. It's possible to use asterisks as wildcard symbols.-->
+  <Filters>
+  <ExcludeFilters>
+    <FilterEntry>
+      <ClassMask>WebRole</ClassMask>
+    </FilterEntry>    
+  </ExcludeFilters>
+</Filters>
+  
+  <!-- Attribute filters. It's possible to use asterisks as wildcard symbols.
+  <AttributeFilters>
+    <AttributeFilterEntry> Attribute class mask </AttributeFilterEntry>
+    <AttributeFilterEntry>System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute</AttributeFilterEntry>
+  </AttributeFilters>
+  -->
+  <!-- Process Filters. It's possible to use asterisks as wildcard symbols.
+  <ProcessFilters>
+    <IncludeFilters>
+      <ProcessMask>SampleProcess*</ProcessMask>
+    </IncludeFilters>
+    <ExcludeFilters>
+	    <ProcessMask>SampleProcess.exe</ProcessMask>
+	  </ExcludeFilters>
+  </ProcessFilters>
+  -->
+</AnalyzeParams>
