@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api\BlobUploader.cs</title>
+    <script type="text/javascript" src="../js/dotcover.sourceview.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/dotcover.report.css" />
+  </head>
+  <body>
+    <pre id="content" class="source-code">
+using System.Net;
+using System.Net.Http;
+using Microsoft.Ajax.Utilities;
+using Microsoft.WindowsAzure.Storage;
+using Microsoft.WindowsAzure.Storage.Blob;
+using Newtonsoft.Json;
+
+namespace Customer.Web.Api
+{
+    public class BlobUploader : IBlobUploader
+    {
+        public string UploadBlob(CloudBlockBlob blockBlob,string customerJson)
+        {
+            if (customerJson == null)
+            {
+                return null;
+            }
+
+            blockBlob.UploadText(customerJson);
+
+            return blockBlob.Uri.AbsoluteUri;
+        }
+    }
+}
+    </pre>
+    <script type="text/javascript">
+      highlightRanges([[13,9,13,10,0],[14,13,14,38,0],[15,13,15,14,0],[16,17,16,29,0],[19,13,19,48,0],[21,13,21,46,0],[22,9,22,10,0]]);
+    </script>
+  </body>
+</html>

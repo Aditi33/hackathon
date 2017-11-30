@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\Helpers\AzureStorageHelper.cs</title>
+    <script type="text/javascript" src="../js/dotcover.sourceview.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/dotcover.report.css" />
+  </head>
+  <body>
+    <pre id="content" class="source-code">
+using System;
+using System.Linq;
+using Microsoft.Azure;
+using Microsoft.WindowsAzure.Storage;
+using Microsoft.WindowsAzure.Storage.Blob;
+using TechTalk.SpecFlow.Plugins;
+
+
+namespace Customer.Web.Api.AcceptanceTests.Features.Helpers
+{
+    public class AzureStorageHelper
+    {
+        private static CloudBlobContainer GetBlobContainer()
+        {
+            var blobContainerName = CloudConfigurationManager.GetSetting(&quot;BlobContainerName&quot;);
+
+            var storageAccountConnectionString =
+                CloudConfigurationManager.GetSetting(&quot;StorageAccountForBlob&quot;);
+
+            var storageAccount = CloudStorageAccount.Parse(storageAccountConnectionString);
+
+            var blobClient = storageAccount.CreateCloudBlobClient();
+
+            var container = blobClient.GetContainerReference(blobContainerName);
+
+            container.SetPermissions(new BlobContainerPermissions
+            {
+                PublicAccess = BlobContainerPublicAccessType.Blob
+            });
+
+            return container;
+        }
+
+        public static void DeleteJsonFromBlob(string blobName)
+        {
+            var container = GetBlobContainer();
+            foreach (var blob in container.ListBlobs().OfType&lt;CloudBlockBlob&gt;().Where(blob =&gt; blob.Name.Contains(blobName)))
+            {
+                blob.DeleteIfExists();
+            }
+        }
+
+        public static bool VerifyJsonFromBlob(string blobName)
+        {
+            var container = GetBlobContainer();
+            var jsonFound = false;
+
+            foreach (
+                var blob in
+                container.ListBlobs()
+                    .OfType&lt;CloudBlockBlob&gt;())
+            {
+                if (blob.Name.Contains(blobName))
+                {
+                    jsonFound = true;
+                    break;
+                }
+            }
+            return jsonFound;
+        }
+
+    }
+}
+    </pre>
+    <script type="text/javascript">
+      highlightRanges([[14,9,14,10,1],[15,13,15,95,1],[17,13,18,79,1],[20,13,20,92,1],[22,13,22,69,1],[24,13,24,81,1],[26,13,29,16,1],[31,13,31,30,1],[32,9,32,10,1],[35,9,35,10,1],[36,13,36,48,1],[37,13,37,20,1],[37,22,37,30,1],[37,31,37,33,1],[37,34,37,95,1],[37,95,37,123,1],[37,123,37,124,1],[37,34,37,124,1],[38,13,38,14,1],[39,17,39,39,1],[40,13,40,14,1],[41,9,41,10,1],[44,9,44,10,1],[45,13,45,48,1],[46,13,46,35,1],[48,13,48,20,1],[49,17,49,25,1],[49,26,49,28,1],[50,17,51,46,1],[52,13,52,14,1],[53,17,53,50,1],[54,17,54,18,1],[55,21,55,38,1],[56,21,56,27,1],[58,13,58,14,0],[59,13,59,30,1],[60,9,60,10,1]]);
+    </script>
+  </body>
+</html>

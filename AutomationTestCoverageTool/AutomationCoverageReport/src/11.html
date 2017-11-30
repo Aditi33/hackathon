@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api\BlobContainerProvider.cs</title>
+    <script type="text/javascript" src="../js/dotcover.sourceview.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/dotcover.report.css" />
+  </head>
+  <body>
+    <pre id="content" class="source-code">
+using Microsoft.WindowsAzure.Storage;
+using Microsoft.WindowsAzure.Storage.Blob;
+
+namespace Customer.Web.Api
+{
+    public class BlobContainerProvider 
+    {
+        public static CloudBlobContainer GetCloudBlobContainer()
+        {
+            var storageAccountConnectionString = &quot;DefaultEndpointsProtocol=https;AccountName=as206deunassetrtsdpystor;AccountKey=yPrap/1aGuBqUa4osirAp2byceritAGewtHliJluKTlGn/xAAXbaINVvVDakmQWOoe9ShMgRnQuT4YvlSAe0uw==&quot;;
+            var containerName = &quot;customerdata&quot;;
+
+            var storageAccount = CloudStorageAccount.Parse(storageAccountConnectionString);
+
+            var cloudBlobClient = storageAccount.CreateCloudBlobClient();
+
+            var blobContainerName = cloudBlobClient.GetContainerReference(containerName);
+
+            blobContainerName.CreateIfNotExists();
+
+            SetPublicContainerPermissions(blobContainerName);
+
+            return blobContainerName;
+        }
+
+        private static void SetPublicContainerPermissions(CloudBlobContainer container)
+        {
+            var permissions = container.GetPermissions();
+            permissions.PublicAccess = BlobContainerPublicAccessType.Container;
+            container.SetPermissions(permissions);
+        }
+    }
+}
+    </pre>
+    <script type="text/javascript">
+      highlightRanges([[9,9,9,10,1],[10,13,10,220,1],[11,13,11,48,1],[13,13,13,92,1],[15,13,15,74,1],[17,13,17,90,1],[19,13,19,51,1],[21,13,21,62,1],[23,13,23,38,1],[24,9,24,10,1],[27,9,27,10,1],[28,13,28,58,1],[29,13,29,80,1],[30,13,30,51,1],[31,9,31,10,1]]);
+    </script>
+  </body>
+</html>

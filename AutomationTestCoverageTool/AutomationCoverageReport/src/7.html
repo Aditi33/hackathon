@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\Features\SpecFlowFeature1.feature</title>
+    <script type="text/javascript" src="../js/dotcover.sourceview.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/dotcover.report.css" />
+  </head>
+  <body>
+    <pre id="content" class="source-code">
+Feature: InsertCustomer
+	In order to store data
+	As an admin
+	I want to store customer data with can be access from anywhere
+
+@mytag
+Scenario: Passing valid customer details to Web API
+	Given there is no blob present for this ID
+	| Id  | Name  | ContactNumber | EmailAddress |
+	| 101 | Megha | 5829631470    | mabc@g.com   |
+	When I send customer data to Web API
+	| Id  | Name  | ContactNumber | EmailAddress |
+	| 101 | Megha | 5829631470    | mabc@g.com   |
+	Then customer blob should be created
+	| Id  | Name  | ContactNumber | EmailAddress |
+	| 101 | Megha | 5829631470    | mabc@g.com   |
+
+	
+    </pre>
+    <script type="text/javascript">
+      highlightRanges([[7,1,7,34,1],[8,2,8,95,1],[11,2,11,88,1],[14,2,14,88,1]]);
+    </script>
+  </body>
+</html>

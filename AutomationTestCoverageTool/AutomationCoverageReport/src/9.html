@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.UnitTests\CustomerProcessorTests.cs</title>
+    <script type="text/javascript" src="../js/dotcover.sourceview.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/dotcover.report.css" />
+  </head>
+  <body>
+    <pre id="content" class="source-code">
+using System;
+using Castle.Core.Internal;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Microsoft.WindowsAzure.Storage.Blob;
+using Moq;
+using NUnit.Framework;
+using NUnit.Framework.Internal;
+
+namespace Customer.Web.Api.UnitTests
+{
+    [TestFixture]
+    public class CustomerProcessorTests
+    {
+        private Mock&lt;IBlobUploader&gt; mockblobUploader;
+        private ICustomerProcessor customerProcessor;
+
+        [SetUp]
+        public void Setup()
+        {
+            mockblobUploader = new Mock&lt;IBlobUploader&gt;();
+            mockblobUploader.Setup(x =&gt; x.UploadBlob(It.IsAny&lt;CloudBlockBlob&gt;(), It.IsAny&lt;string&gt;())).Returns(&quot;https://as206deunassetrtsdpystor.blob.core.windows.net/customerdata/2-Megha&quot;);
+
+            customerProcessor = new CustomerProcessor(mockblobUploader.Object);
+
+        }
+
+        [TestCase(0,&quot;Aditi&quot;)]
+        [TestCase(1, &quot; &quot;)]
+        public void Return_Null_When_Customer_Is_Invalid(int id, string name)
+        {
+            var customer = new Models.Customer
+            {
+                Id = id,
+                Name = name,
+                ContactNumber = &quot;+91-58962347&quot;,
+                EmailAddress = &quot;aditi@gmail.com&quot;
+            };
+
+            var blobPath = customerProcessor.Process(customer);
+
+            NUnit.Framework.Assert.That(blobPath.IsNullOrEmpty());
+        }
+
+        [Test]
+        public void Return_BlobPath_When_Customer_Is_valid()
+        {
+            var customer = new Models.Customer
+            {
+                Id = 1,
+                Name = &quot;Aditi&quot;,
+                ContactNumber = &quot;+91-58962347&quot;,
+                EmailAddress = &quot;aditi@gmail.com&quot;
+            };
+
+            var blobPath = customerProcessor.Process(customer);
+
+            NUnit.Framework.Assert.IsNotEmpty(blobPath);
+            mockblobUploader.Verify(x =&gt; x.UploadBlob(It.IsAny&lt;CloudBlockBlob&gt;(), It.IsAny&lt;string&gt;()), Times.Once);
+        }
+    }
+}
+
+    </pre>
+    <script type="text/javascript">
+      highlightRanges([[19,9,19,10,1],[20,13,20,58,1],[21,13,21,190,1],[23,13,23,80,1],[25,9,25,10,1],[30,9,30,10,1],[31,13,37,15,1],[39,13,39,64,1],[41,13,41,67,1],[42,9,42,10,0],[46,9,46,10,1],[47,13,53,15,1],[55,13,55,64,1],[57,13,57,57,1],[58,13,58,116,0],[59,9,59,10,0]]);
+    </script>
+  </body>
+</html>

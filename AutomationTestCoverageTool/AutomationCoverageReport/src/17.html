@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api\Controllers\StorageController.cs</title>
+    <script type="text/javascript" src="../js/dotcover.sourceview.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/dotcover.report.css" />
+  </head>
+  <body>
+    <pre id="content" class="source-code">
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Web;
+using System.Web.Http;
+using System.Web.Mvc;
+using Microsoft.WindowsAzure.Storage;
+using Microsoft.WindowsAzure.Storage.Blob;
+using Microsoft.WindowsAzure.Storage.RetryPolicies;
+using Newtonsoft.Json;
+
+namespace Customer.Web.Api.Controllers
+{
+    public class StorageController : ApiController
+    {
+        private readonly ICustomerProcessor customerProcessor;
+
+        public StorageController()
+        {
+            if (this.customerProcessor == null)
+            {
+                BlobUploader blobUploader = new BlobUploader();
+                customerProcessor = new CustomerProcessor(blobUploader);
+            }
+        }
+
+        public HttpResponseMessage Post([FromBody] Models.Customer customer)
+        {
+            var blobPathUrl= customerProcessor.Process(customer);
+
+            if (blobPathUrl == null)
+            {
+                return new HttpResponseMessage(HttpStatusCode.InternalServerError);
+            }
+            var response = new HttpResponseMessage(HttpStatusCode.Created)
+            {
+                Content = new StringContent(string.Format(&quot;Blob Path URL:{0}&quot;, blobPathUrl))
+            };
+            return response;
+        }
+    }
+}
+    </pre>
+    <script type="text/javascript">
+      highlightRanges([[20,9,20,35,0],[21,9,21,10,0],[22,13,22,48,0],[23,13,23,14,0],[24,17,24,64,0],[25,17,25,73,0],[26,13,26,14,0],[27,9,27,10,0],[30,9,30,10,0],[31,13,31,66,0],[33,13,33,37,0],[34,13,34,14,0],[35,17,35,84,0],[37,13,40,15,0],[41,13,41,29,0],[42,9,42,10,0]]);
+    </script>
+  </body>
+</html>

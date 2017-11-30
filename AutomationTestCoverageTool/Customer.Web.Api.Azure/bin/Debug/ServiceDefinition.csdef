@@ -25,7 +25,7 @@
     </Endpoints>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.Azure\rcf\Debug\Customer.Web.ApiContent\" />
+        <SourceDirectory path="D:\Hackathon\hackathon\AutomationTestCoverageTool\Customer.Web.Api.Azure\rcf\Debug\Customer.Web.ApiContent\" />
       </Content>
     </Contents>
   </WebRole>

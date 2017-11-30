@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>D:\Hackathon\megha\AutomationTestCoverageTool\Customer.Web.Api.AcceptanceTests\Features\CoverageFeature.feature</title>
+    <script type="text/javascript" src="../js/dotcover.sourceview.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/dotcover.report.css" />
+  </head>
+  <body>
+    <pre id="content" class="source-code">
+Feature: CoverageFeature	
+	To get InsertCustomerFeature code Coverage
+	I want to Execute Unit Test Cases
+
+@mytag
+Scenario: Passing valid customer details to Web API
+	Given InsertCustomerFeature 
+	| Id  | Name  | ContactNumber | EmailAddress |
+	| 101 | Megha | 5829631470    | mabc@g.com   |
+	When Code Coverage Required
+	Then Execute UnitTestCases
+
+	
+
+    </pre>
+    <script type="text/javascript">
+      highlightRanges([[6,1,6,34,1],[7,2,7,80,1],[10,2,10,106,1],[11,2,11,105,1]]);
+    </script>
+  </body>
+</html>

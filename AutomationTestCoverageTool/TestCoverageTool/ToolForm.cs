@@ -38,7 +38,28 @@ namespace TestCoverageTool
             p.StartInfo.UseShellExecute = false;
             p.StartInfo.FileName = @"D:\Hackathon\hackathon\AutomationTestCoverageTool\DotcoverCommand.bat";
             p.Start();
+            while (!p.HasExited)
+            {
+            }
 
+            string fileName = "AutomationCoverageReport.html";
+            string sourcePath = @"C:\Users\Aditi.Kulkarni\AppData\Local\JetBrains\Installations\dotCover09";
+            string targetPath = @"D:\Hackathon\hackathon\AutomationTestCoverageTool";
+
+            ////string sourceFile = System.IO.Path.Combine(sourcePath, fileName);
+            ////string destFile = System.IO.Path.Combine(targetPath, fileName);
+
+            ////System.IO.File.Copy(sourceFile, destFile, true);
+
+            if (MessageBox.Show(
+                    "Report has generated.", "Visit", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk
+                ) == DialogResult.Yes)
+            {
+                Process.Start(@"D:\Hackathon\hackathon\AutomationTestCoverageTool\AutomationCoverageReport.html");
+            }
+
+            //MessageBox.Show("Report has generated.");
+            //Process.Start(@"D:\Hackathon\hackathon\AutomationTestCoverageTool\AutomationCoverageReport.html");
 
             ////System.Diagnostics.Process process = new System.Diagnostics.Process();
             ////System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
@@ -49,6 +70,11 @@ namespace TestCoverageTool
             ////process.StartInfo = startInfo;
             ////process.Start();
             ////Console.WriteLine(process.StandardOutput.ReadToEnd());
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
